@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photos to select clothing items for masking and uploading.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save masked images to your photo library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need camera access to take photos of clothing items.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>We need access to save and manage your wardrobe items.</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+		<string>metal</string>
+	</array>
+</dict>
+</plist>
